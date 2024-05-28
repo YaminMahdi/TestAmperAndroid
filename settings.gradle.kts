@@ -26,6 +26,6 @@ plugins {
     id("org.jetbrains.amper.settings.plugin").version("0.3.0")
 }
 
-rootProject.name = "TestAmper"
-include(":src")
-project(":src").projectDir = file(".sub")
+//rootProject.name = "TestAmper"
+//include(":src")
+//project(":src").projectDir = file(".sub")

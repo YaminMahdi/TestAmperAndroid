@@ -1,4 +1,4 @@
-package mlab.testamper
+package mlab.test.amper
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
