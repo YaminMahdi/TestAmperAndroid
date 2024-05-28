@@ -1,0 +1,27 @@
+product: android/app
+
+dependencies:
+  - $compose.foundation
+  - $compose.material3
+#  - $libs.androidx.core.ktx
+#  - $libs.androidx.lifecycle.runtime.ktx
+#  - $libs.androidx.activity.compose
+#  - $libs.androidx.compose.bom
+#  - $libs.androidx.ui
+#  - $libs.androidx.ui.graphics
+#  - $libs.androidx.ui.tooling.preview
+#  - $libs.androidx.material3
+
+repositories:
+  - id: jitpack
+    url: https://jitpack.io
+
+settings:
+  android:
+    namespace : "mlab.testamper"
+    compileSdk: 33
+    minSdk: 26
+  kotlin:
+    languageVersion: 2.0
+    serialization: json
+  compose: enabled
